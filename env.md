@@ -9,20 +9,15 @@ Vagrant and VirtualBox are being used to provide a consistent Ruby and Rails env
 * Download and install Vagrant
 * Create a new directory to hold your project, e.g:
 
-```bash
+``` bash
 $ mkdir ~/ruby_course
 $ cd ruby_course
 ```
 
 * Download and setup the Vagrant box:
 
-```bash
-# this first step may take a while to download the box
+``` bash
 $ vagrant box add test https://s3.amazonaws.com/railstraining/rails_test.box
-# initialize a Vagrant project with the downloaded box
 $ vagrant init test
-# book up the virtual machine
 $ vagrant up
 ```
-
-This is ending text
