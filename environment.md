@@ -44,10 +44,22 @@ $ irb --simple-prompt
 {% endhighlight %}
 
 
+{% highlight ruby %}
+class Person < ActiveRecord::Base
+  def name
+    [first_name, last_name].join(' ')
+  end
+
+  private
+
+  def activate!
+    update_attribute(:activated, true)
+  end
+end
+{% endhighlight %}
 
 [vbd]: https://www.virtualbox.org/wiki/Downloads "Oracle VirtualBox Download Page"
 [vb]: https://www.virtualbox.org/ "Oracle VirtualBox"
 [v]: http://vagrantup.com/ "Vagrant"
 [vd]: http://downloads.vagrantup.com/tags/v1.0.3 "Vagrant Download Page"
-
 
