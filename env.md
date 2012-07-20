@@ -1,6 +1,7 @@
 ---
 title: Environment Setup
 subtitle: Installing a Ruby and Rails Ready Vagrant Box
+layout: default
 ---
 
 Vagrant and VirtualBox are being used to provide a consistent Ruby and Rails environment. A box has been provisioned with the necessary packages and tools. There is an added bonus of operating in a sandbox, minimizing disruption to your host machine. Set it up by following the instructions below.
