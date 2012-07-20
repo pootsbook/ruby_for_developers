@@ -23,7 +23,11 @@ $ vagrant init test
 $ vagrant up
 {% endhighlight %}
 
+**WARNING** The link is pointing to a test box, not the box we will use on the day.
+
 [vbd]: https://www.virtualbox.org/wiki/Downloads "Oracle VirtualBox Download Page"
 [vb]: https://www.virtualbox.org/ "Oracle VirtualBox"
 [v]: http://vagrantup.com/ "Vagrant"
 [vd]: http://downloads.vagrantup.com/tags/v1.0.3 "Vagrant Download Page"
+
+
