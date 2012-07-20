@@ -25,6 +25,26 @@ $ vagrant up
 
 **WARNING** The link is pointing to a test box, not the box we will use on the day.
 
+Login to the box and browse to the shared directory:
+
+{% highlight sh %}
+$ vagrant ssh
+$ cd /vagrant
+{% endhighlight %}
+
+{% highlight sh %}
+$ irb --simple-prompt
+{% endhighlight %}
+
+{% highlight irb %}
+>> puts "Hello World!"
+"Hello World!"
+=> nil
+>>
+{% endhighlight %}
+
+
+
 [vbd]: https://www.virtualbox.org/wiki/Downloads "Oracle VirtualBox Download Page"
 [vb]: https://www.virtualbox.org/ "Oracle VirtualBox"
 [v]: http://vagrantup.com/ "Vagrant"
