@@ -122,6 +122,31 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#to_s`, `#to_str`  
 `#to_sym`, `#intern`  
 
+### Enumerating
 
+`#chars`, `#each_char`  
+`#lines`, `#each_line`  
+
+### Range Operations
+
+`#upto`  
+`#succ`, `#succ!` / `#next`, `#next!` 
+
+### Unsorted Lower Level
+
+`#bytes`, `#each_byte`  
+`#codepoints`, `#each_codepoint`  
+`#hex`  
+`#sum`  
+`#ord`  
+`#oct`  
+`#crypt`  
+`#hash`  
+`#dump`  
+`#unpack`  
+`#getbyte`  
+`#setbyte`  
+`#byteslice`  
+`#bytesize`  
 
 [rdoc]: http://www.ruby-doc.org/core-1.9.3/String.html
