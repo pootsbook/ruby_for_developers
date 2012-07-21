@@ -78,7 +78,6 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 `#sub`, `#sub!`  
 `#gsub`, `#gsub!`  
-`#squeeze`, `#squeeze!`  
 `#tr`, `#tr!`  
 `#tr_s`, `#tr_s!`  
 `#slice!` / `#[]=`  
@@ -94,6 +93,12 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#center`  
 `#ljust`  
 `#rjust`  
+
+## Set Operations
+
+`#count(`*\[other_string\]+*`)`  
+`#delete(`*\[other_string\]+*`)`, `#delete!(`*\[other_string\]+*`)`  
+`#squeeze(`*\[other_string\]\**`)`, `#squeeze!(`*\[other_string\]\**`)`  
 
 
 
