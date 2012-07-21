@@ -39,9 +39,9 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#empty?`  
 
 `#count`  
-`#index(`*substring \[, offset\]*`)`  
-`#rindex(`*substring \[, offset\]*`)`  
-`#slice` / `#[]` 
+`#index(`*substring|regexp \[, offset\]*`)`  
+`#rindex(`*substring|regexp \[, offset\]*`)`  
+`#slice(`*fixnum|range|regexp|other_string*`)`, `#slice(`*fixnum, fixnum*`)`, `#slice(`*regexp, fixnum|capname*`)` / `#[]` 
 
 `#scan`  
 `#match`, `#=~`  
@@ -86,9 +86,8 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 ### Breaking Up
 
 `#split(`*pattern=$;, \[limit\]*`)`  
-`#partition(`*sep | regexp*`)`  
 `#partition(`*sep|regexp*`)`  
-`#rpartition`  
+`#rpartition(`*sep|regexp*`)`  
 
 ### Formatting
 
