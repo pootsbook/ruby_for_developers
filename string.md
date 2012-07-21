@@ -83,6 +83,13 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#tr_s`, `#tr_s!`  
 `#slice!` / `#[]=`  
 
+### Breaking Up
+
+`#split(`*pattern=$;, \[limit\]*`)`  
+`#partition(`*sep | regexp*`)`  
+`#partition(`*sep|regexp*`)`  
+`#rpartition`  
+
 ### Formatting
 
 `#center`  
