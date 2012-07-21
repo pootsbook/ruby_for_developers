@@ -43,7 +43,6 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#rindex(`*substring \[, offset\]*`)`  
 `#slice` / `#[]` 
 
-`#eql?`, `#==`, `#===`  
 `#scan`  
 `#match`, `#=~`  
 `#inspect`  
@@ -52,6 +51,7 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 `#<=>(`*other_string*`)`  
 `#casecmp(`*other_string*`)`  
+`#eql?(`*other_string*`)`, `#==(`*other_string*`)`, `#===(`*other_string*`)`  
 
 ### Cleaning
 
@@ -63,8 +63,9 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 ### Adding
 
-`#prepend`  
-`#concat`, `#<<`, `#+`  
+`#prepend(`*other_string*`)`  
+`#concat`, `#<<`, 
+`#+(`*other_string*`)`  
 `#insert` 
 
 ### Transforming
