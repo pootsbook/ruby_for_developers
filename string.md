@@ -29,48 +29,48 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 ### Interrogative
 
-#start_with  
-#end_with  
-#include?  
-#length / #size  
-#empty?  
-#count  
-#chr  
-#index  
-#rindex  
-#eql?, #==, #===  
-#scan  
-#match, #=~
-#inspect
+`#start_with`
+`#end_with`
+`#include?`
+`#length` / `#size`
+`#empty?`
+`#count`
+`#chr`
+`#index`
+`#rindex`
+`#eql?`, `#==`, `#===`
+`#scan`
+`#match`, `#=~`
+`#inspect`
 
 # Formatting
 
-#center
-#ljust
-#rjust
+`#center`
+`#ljust`
+`#rjust`
 
 ## Cleaning
 
-#chomp, #chomp!
-#chop, #chop!
-#strip, #strip!
-#lstrip, #lstrip!
-#rstrip, #rstrip!
+`#chomp`, `#chomp!`
+`#chop`, `#chop!`
+`#strip`, `#strip!`
+`#lstrip`, `#lstrip!`
+`#rstrip`, `#rstrip!`
 
 ## Transforming
 
-#upcase, #upcase!
-#downcase, #downcase!
-#swapcase, #swapcase!
-#capitalize, #capitalize!
-#reverse, #reverse!
+`#upcase`, `#upcase!`
+`#downcase`, `#downcase!`
+`#swapcase`, `#swapcase!`
+`#capitalize`, `#capitalize!`
+`#reverse`, `#reverse!`
 
-#sub, #sub!
-#gsub, #gsub!
-#squeeze, #squeeze!
-#tr, #tr!
-#tr_s, #tr_s!
-#slice / #[], #slice! / #[]=
+`#sub`, `#sub!`
+`#gsub`, `#gsub!`
+`#squeeze`, `#squeeze!`
+`#tr`, `#tr!`
+`#tr_s`, `#tr_s!`
+`#slice` / `#[]`, `#slice!` / `#[]=`
 
 
 
