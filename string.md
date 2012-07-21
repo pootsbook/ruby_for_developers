@@ -25,6 +25,8 @@ It’s also possible to use the class method `new`:
 => "Hello World!"
 {% endhighlight %}
 
+## Instance Methods
+
 It’s sometimes helpful to see methods grouped logically, rather than in a big long definition list. Where methods speak for themselves, no explanation is given.
 
 ### Interrogative
