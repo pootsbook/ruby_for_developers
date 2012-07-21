@@ -31,25 +31,28 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 `#start_with`  
 `#end_with`  
+`#chr`  
 `#include?`  
 `#length` / `#size`  
 `#empty?`  
+
 `#count`  
-`#chr`  
 `#index`  
 `#rindex`  
+`#slice` / `#[]` 
+
 `#eql?`, `#==`, `#===`  
 `#scan`  
 `#match`, `#=~`  
 `#inspect`  
 
-# Formatting
+### Formatting
 
 `#center`  
 `#ljust`  
 `#rjust`  
 
-## Cleaning
+### Cleaning
 
 `#chomp`, `#chomp!`  
 `#chop`, `#chop!`  
@@ -57,7 +60,7 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#lstrip`, `#lstrip!`  
 `#rstrip`, `#rstrip!`  
 
-## Transforming
+### Transforming
 
 `#upcase`, `#upcase!`  
 `#downcase`, `#downcase!`  
@@ -70,7 +73,7 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#squeeze`, `#squeeze!`  
 `#tr`, `#tr!`  
 `#tr_s`, `#tr_s!`  
-`#slice` / `#[]`, `#slice!` / `#[]=`  
+`#slice!` / `#[]=`  
 
 
 
