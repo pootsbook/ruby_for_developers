@@ -3,7 +3,7 @@ layout: default
 title: Using Redis
 ---
 
-Redis is installed with the defaults of running on `localhost` and port `6379`. This means using it is simple with the `redis` rubygem.
+Redis is installed and running on `localhost`, port `6379`. Using it is simple with the `redis` rubygem.
 
 ### irb
 
