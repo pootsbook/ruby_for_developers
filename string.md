@@ -100,6 +100,19 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#delete(`*\[other_string\]+*`)`, `#delete!(`*\[other_string\]+*`)`  
 `#squeeze(`*\[other_string\]\**`)`, `#squeeze!(`*\[other_string\]\**`)`  
 
+## Wholesale Modification
+
+`#clear`  
+`#replace(`*other_string*`)`  
+
+## Encoding
+
+`#ascii_only?`  
+`#valid_encoding?`  
+`#encoding`  
+`#force_encoding(`*encoding*`)`  
+`#encode(`*encoding, \[, options\]* / *destination_encoding, source_encoding \[, options\]* / *\[options\]*`)`, `#encode!`  
+
 
 
 [rdoc-string]: http://www.ruby-doc.org/core-1.9.3/String.html
