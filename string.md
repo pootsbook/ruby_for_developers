@@ -31,16 +31,16 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 ### Interrogative
 
-`#start_with?([prefix]+)`  
-`#end_with?([prefix]+)`  
+`#start_with?(`*[prefix]+*`)`  
+`#end_with?(`*[prefix]+*`)`  
 `#chr`  
-`#include?(other_string)`  
+`#include?(`*other_string*`)`  
 `#length` / `#size`  
 `#empty?`  
 
 `#count`  
-`#index(substring | regexp [, offset])`  
-`#rindex(substring | regexp [, offset])`  
+`#index(`*substring [, offset]*`)`  
+`#rindex(`*substring [, offset]*`)`  
 `#slice` / `#[]` 
 
 `#eql?`, `#==`, `#===`  
@@ -64,8 +64,8 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 ### Adding
 
 `#prepend`  
-`#concat`, `#<<`, `#+`
-`#insert`
+`#concat`, `#<<`, `#+`  
+`#insert` 
 
 ### Transforming
 
