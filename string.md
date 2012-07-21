@@ -50,8 +50,8 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 ### Comparing
 
-`#<=>(*other_string*)`
-`#casecmp(*other_string*)`
+`#<=>(`*other_string*`)`  
+`#casecmp(`*other_string*`)`  
 
 ### Cleaning
 
