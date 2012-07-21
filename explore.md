@@ -13,28 +13,28 @@ $ vagrant ssh
 This command logs you into a *guest* machine running Ubuntu 12.04 LTS (Precise Pangolin). This machine has been provisioned using Chef-Solo and comes with the following installed:
 
 * **Ruby 1.9.3**  
-    *the latest stable version of Ruby*
+    *the latest stable version of Ruby*  
     http://www.ruby-lang.org/en/
 * **Rails 3.2.6**  
-    *the latest stable version of Rails*
+    *the latest stable version of Rails*  
     http://rubyonrails.org
 * **SQLite 3**  
-    *default SQL RDBMS for development*
+    *default SQL RDBMS for development*  
     http://www.sqlite.org
 * **Git**  
-    *the world’s most popular DVCS*
+    *the world’s most popular DVCS*  
     http://git-scm.com
 * **Vim**  
-    *the programmer’s text editor*
+    *the programmer’s text editor*  
     http://www.vim.org
 * **Node.js**  
-    *server-side JS environment*
+    *server-side JS environment*  
     http://nodejs.org
 * **Redis**  
-    *advanced key-value store*
+    *advanced key-value store*  
     http://redis.io
 * **MongoDB**  
-    *NoSQL DB*
+    *NoSQL DB*  
     http://www.mongodb.org
 
 Your username is `vagrant` and the root password is identical in case you need to invoke any commands with root permissions via `sudo`.
