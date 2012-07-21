@@ -31,28 +31,22 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 
 ### Interrogative
 
-`#start_with`  
-`#end_with`  
+`#start_with?([prefix]+)`  
+`#end_with?([prefix]+)`  
 `#chr`  
-`#include?`  
+`#include?(other_string)`  
 `#length` / `#size`  
 `#empty?`  
 
 `#count`  
-`#index`  
-`#rindex`  
+`#index(substring | regexp [, offset])`  
+`#rindex(substring | regexp [, offset])`  
 `#slice` / `#[]` 
 
 `#eql?`, `#==`, `#===`  
 `#scan`  
 `#match`, `#=~`  
 `#inspect`  
-
-### Formatting
-
-`#center`  
-`#ljust`  
-`#rjust`  
 
 ### Cleaning
 
@@ -61,6 +55,12 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#strip`, `#strip!`  
 `#lstrip`, `#lstrip!`  
 `#rstrip`, `#rstrip!`  
+
+### Adding
+
+`#prepend`  
+`#concat`, `#<<`, `#+`
+`#insert`
 
 ### Transforming
 
@@ -76,6 +76,12 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#tr`, `#tr!`  
 `#tr_s`, `#tr_s!`  
 `#slice!` / `#[]=`  
+
+### Formatting
+
+`#center`  
+`#ljust`  
+`#rjust`  
 
 
 
