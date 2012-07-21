@@ -64,7 +64,7 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 ### Adding
 
 `#prepend(`*other_string*`)`  
-`#concat`, `#<<`, 
+`#concat`, `#<<`  
 `#+(`*other_string*`)`  
 `#insert` 
 
