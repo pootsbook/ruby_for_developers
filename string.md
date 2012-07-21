@@ -3,7 +3,7 @@ layout: default
 title: String
 ---
 
-Ruby documentation: [String][rdoc-string]
+The Ruby documentation for the [String class][rdoc]
 
 ## Instantiation
 
@@ -113,6 +113,15 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#force_encoding(`*encoding*`)`  
 `#encode(`*encoding, \[, options\]* / *destination_encoding, source_encoding \[, options\]* / *\[options\]*`)`, `#encode!`  
 
+### Changing Type
+
+`#to_c` *(complex number)*  
+`#to_f` *(floating point number)*  
+`#to_i(`*base=10*`)` *(integer)*  
+`#to_r` *(rational number)*  
+`#to_s`, `#to_str`  
+`#to_sym`, `#intern`  
 
 
-[rdoc-string]: http://www.ruby-doc.org/core-1.9.3/String.html
+
+[rdoc]: http://www.ruby-doc.org/core-1.9.3/String.html
