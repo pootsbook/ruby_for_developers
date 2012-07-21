@@ -94,18 +94,18 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#ljust`  
 `#rjust`  
 
-## Set Operations
+### Set Operations
 
 `#count(`*\[other_string\]+*`)`  
 `#delete(`*\[other_string\]+*`)`, `#delete!(`*\[other_string\]+*`)`  
 `#squeeze(`*\[other_string\]\**`)`, `#squeeze!(`*\[other_string\]\**`)`  
 
-## Wholesale Modification
+### Wholesale Modification
 
 `#clear`  
 `#replace(`*other_string*`)`  
 
-## Encoding
+### Encoding
 
 `#ascii_only?`  
 `#valid_encoding?`  
