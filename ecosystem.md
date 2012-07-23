@@ -12,15 +12,21 @@ subtitle: Finding Rubies in the Rough
 ### Interpreters
 
 - MRI  
-  1.8.x
+  1.8.6, 1.8.7
 - YARV (KRI)  
-  1.9.x
+  1.9.1, 1.9.2, 1.9.3
+- Maglev  
+  http://maglev.github.com/
 - Rubinius  
   http://rubini.us/
 - JRuby  
   http://jruby.org/
 - REE  
   http://www.rubyenterpriseedition.com/
+- MacRuby  
+  http://macruby.org/
+- IronRuby  
+  http://www.ironruby.net/
 
 ### Managing Rubies
 
