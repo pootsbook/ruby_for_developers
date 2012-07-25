@@ -14,28 +14,28 @@ This command logs you into a *guest* machine running Ubuntu 12.04 LTS (Precise P
 
 * **Ruby 1.9.3**  
     *the latest stable version of Ruby*  
-    http://www.ruby-lang.org/en/
+    [http://www.ruby-lang.org/en/](http://www.ruby-lang.org/en/)
 * **Rails 3.2.6**  
     *the latest stable version of Rails*  
-    http://rubyonrails.org
+    [http://rubyonrails.org](http://rubyonrails.org)
 * **SQLite 3**  
     *default SQL RDBMS for development*  
-    http://www.sqlite.org
+    [http://www.sqlite.org](http://www.sqlite.org)
 * **Git**  
     *the world’s most popular DVCS*  
-    http://git-scm.com
+    [http://git-scm.com](http://git-scm.com)
 * **Vim**  
     *the programmer’s text editor*  
-    http://www.vim.org
+    [http://www.vim.org](http://www.vim.org)
 * **Node.js**  
     *server-side JS environment*  
-    http://nodejs.org
+    [http://nodejs.org](http://nodejs.org)
 * **Redis**  
     *advanced key-value store*  
-    http://redis.io
+    [http://redis.io](http://redis.io)
 * **MongoDB**  
     *NoSQL DB*  
-    http://www.mongodb.org
+    [http://www.mongodb.org](http://www.mongodb.org)
 
 Your username is `vagrant` and the root password is identical in case you need to invoke any commands with root permissions via `sudo`.
 
