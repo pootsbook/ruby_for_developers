@@ -18,12 +18,10 @@ $ cd ruby_course
 * Download and setup the Vagrant box:
 
 {% highlight sh %}
-$ vagrant box add test https://s3.amazonaws.com/railstraining/rails_test.box
+$ vagrant box add rubyrails https://s3.amazonaws.com/railstraining/rubyrails.box
 $ vagrant init test
 $ vagrant up
 {% endhighlight %}
-
-**WARNING** The link is pointing to a test box, not the box we will use on the day.
 
 Login to the box and browse to the shared directory:
 
@@ -32,31 +30,15 @@ $ vagrant ssh
 $ cd /vagrant
 {% endhighlight %}
 
+Inspect your environment:
+
 {% highlight sh %}
-$ irb --simple-prompt
+$ ruby -v
+ruby 1.9.3p194 (2012-04-20 revision 35410) [x86_64-linux]
+$ rails -v
+Rails 3.2.6
 {% endhighlight %}
 
-{% highlight irb %}
->> puts "Hello World!"
-"Hello World!"
-=> nil
->>
-{% endhighlight %}
-
-
-{% highlight ruby %}
-class Person < ActiveRecord::Base
-  def name
-    [first_name, last_name].join(' ')
-  end
-
-  private
-
-  def activate!
-    update_attribute(:activated, true)
-  end
-end
-{% endhighlight %}
 
 [vbd]: https://www.virtualbox.org/wiki/Downloads "Oracle VirtualBox Download Page"
 [vb]: https://www.virtualbox.org/ "Oracle VirtualBox"
