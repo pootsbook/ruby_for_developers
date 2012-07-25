@@ -39,6 +39,16 @@ $ rails -v
 Rails 3.2.6
 {% endhighlight %}
 
+**NOTE** To exit and halt the virtual machine:
+
+{% highlight sh %}
+$ exit
+logout
+Connection to 127.0.0.1 closed.
+$ vagrant halt
+[default] Attempting graceful shutdown of VM...
+{% endhighlight %}
+
 
 [vbd]: https://www.virtualbox.org/wiki/Downloads "Oracle VirtualBox Download Page"
 [vb]: https://www.virtualbox.org/ "Oracle VirtualBox"
