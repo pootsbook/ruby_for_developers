@@ -19,7 +19,7 @@ $ cd ruby_course
 
 {% highlight sh %}
 $ vagrant box add rubyrails https://s3.amazonaws.com/railstraining/rubyrails.box
-$ vagrant init test
+$ vagrant init rubyrails
 $ vagrant up
 {% endhighlight %}
 
