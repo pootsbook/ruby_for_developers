@@ -22,13 +22,13 @@ Hello World!
 
 Ruby files have a file-ending of `.rb`. Given a file `hello_world.rb` with the following contents,
 
+<p class="code-caption"><strong><small>FILE</small></strong> <em>hello_world.rb</em></p>
 {% highlight ruby %}
 puts "Hello World!"
 {% endhighlight %}
 
 it can be run as follows:
 
-**CODE** hello_world.rb  
 {% highlight sh %}
 $ ruby hello_world.rb
 Hello World!
@@ -38,7 +38,7 @@ Hello World!
 
 You can turn that file into an executable script by adding a line called the shebang to the very top. There’s no need for the `.rb` extension either.
 
-**CODE** hello_world
+<p class="code-caption"><strong><small>FILE</small></strong> <em>hello_world</em></p>
 {% highlight ruby %}
 #!/usr/bin/env ruby
 
@@ -96,3 +96,5 @@ Notice that there are three different ways of doing the same thing. This is a go
 >> "Hello World!".size
 => 12
 {% endhighlight %}
+
+The methods `length` and `size` are synonymous. Instead of trying to remember which one is the ‘right’ one it’s easy just to use what comes naturally. This is in contrast to a language like Python which likes to have only one way to do things.
