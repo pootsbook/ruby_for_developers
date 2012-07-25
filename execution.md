@@ -40,7 +40,7 @@ You can turn that file into an executable script by adding a line called the she
 
 **CODE** hello_world
 {% highlight ruby %}
-#!/usr/bin/env bash
+#!/usr/bin/env ruby
 
 puts "Hello World!"
 {% endhighlight %}
@@ -49,7 +49,7 @@ Make it executable then run it:
 
 {% highlight sh %}
 $ chmod +x hello_world
-$ hello_world
+$ ./hello_world
 Hello World!
 {% endhighlight %}
 
@@ -96,5 +96,3 @@ Notice that there are three different ways of doing the same thing. This is a go
 >> "Hello World!".size
 => 12
 {% endhighlight %}
-
-
