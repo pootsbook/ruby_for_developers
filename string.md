@@ -38,7 +38,7 @@ It’s sometimes helpful to see methods grouped logically, rather than in a big 
 `#length` / `#size`  
 `#empty?`  
 
-`#count`  
+`#count(`*\[other_string\]+*`)`  
 `#index(`*substring|regexp \[, offset\]*`)`  
 `#rindex(`*substring|regexp \[, offset\]*`)`  
 `#slice(`*fixnum|range|regexp|other_string* / *fixnum, fixnum* / *regexp, fixnum|capname*`)` / `#[]` 
