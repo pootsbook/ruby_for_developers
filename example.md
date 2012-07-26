@@ -27,7 +27,26 @@ The first step will be to reading the file using Ruby and make a list of ISBNs t
 Details about ISBNs can be found on [Wikipedia](http://en.wikipedia.org/wiki/Isbn).
 
 - An ISBN has either 10 or 13 digits.
-- An ISBN can contain dashes, but these should be removed for manipulation.
+- An ISBN can contain dashes and spaces, but these should be removed for manipulation.
 - There is a way to use the last digit (Checksum) to validate it, details are on Wikipedia.
+
+## Sending ISBNs off to Amazon.
+
+We’ll be using the [Vacuum](https://github.com/hakanensari/vacuum/) gem to wrap the Amazon API. The following code will get you setup:
+
+{% highlight ruby %}
+req = Vacuum.new :product_advertising
+
+req.configure do |config|
+  config.key    = 'key'
+  config.secret = 'secret'
+  config.tag    = 'tag'
+end
+
+connection.look_up :images, isbn, 
+    { 'IdType'      => 'ISBN', 
+      'SearchIndex' => 'Books' }
+
+{% endhighlight %}
 
 The second step will be to get and manipulate the book details that come back from Amazon.
