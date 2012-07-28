@@ -6,47 +6,51 @@ subtitle: Finding Rubies in the Rough
 
 ### The Language
 
-- Source Code
-  https://github.com/ruby/ruby
+- Source Code  
+  <https://github.com/ruby/ruby>
 
 ### Interpreters
 
 - MRI  
+  Matz’s Ruby Interpreter  
   1.8.6, 1.8.7
 - YARV (KRI)  
+  Yet Another Ruby Version (Koichi’s Ruby Interpreter)  
   1.9.1, 1.9.2, 1.9.3
 - Maglev  
-  http://maglev.github.com/
+  <http://maglev.github.com/>
 - Rubinius  
-  http://rubini.us/
+  Ruby in Ruby  
+  <http://rubini.us/>
 - JRuby  
-  http://jruby.org/
+  Ruby in the Java Virtual Machine
+  <http://jruby.org/>
 - REE  
-  http://www.rubyenterpriseedition.com/
+  Performance optimized MRI 1.8.7  
+  <http://www.rubyenterpriseedition.com/>
 - MacRuby  
-  http://macruby.org/
+  Ruby in OSX  
+  <http://macruby.org/>
 - IronRuby  
-  http://www.ironruby.net/
+  Ruby in .NET  
+  <http://www.ironruby.net/>
 
 ### Managing Rubies
 
 - rbenv  
-  https://github.com/sstephenson/rbenv/
+  Simple Ruby version management  
+  <https://github.com/sstephenson/rbenv/>
 - RVM  
-  https://rvm.io/
+  Ruby Version Manager  
+  <https://rvm.io/>
 
 ### Managing Gems
 
 - RubyGems  
-  http://rubygems.org/
+  The official Ruby package manager  
+  <http://rubygems.org/>
 
 ### Managing Dependencies
 
 - Bundler  
-  http://gembundler.com/
-
-### Extras
-- http://edwinmeyer.com/Release_Integrated_RHG_09_10_2008/intro.html
-- http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/
-- http://www.youtube.com/watch?v=FyyIvAwwMPM
-- http://bostonrb.org/presentations/the-well-grounded-nuby?utm_source=rubyweekly&utm_medium=email
+  <http://gembundler.com/>
