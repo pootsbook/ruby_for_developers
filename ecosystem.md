@@ -11,46 +11,47 @@ subtitle: Finding Rubies in the Rough
 
 ### Interpreters
 
-- MRI  
+- **MRI**  
   Matz’s Ruby Interpreter  
   1.8.6, 1.8.7
-- YARV (KRI)  
+- **YARV (KRI)**  
   Yet Another Ruby Version (Koichi’s Ruby Interpreter)  
   1.9.1, 1.9.2, 1.9.3
-- Maglev  
+- **Maglev**  
+  Distributed Ruby  
   <http://maglev.github.com/>
-- Rubinius  
+- **Rubinius**  
   Ruby in Ruby  
   <http://rubini.us/>
-- JRuby  
-  Ruby in the Java Virtual Machine
+- **JRuby**  
+  Ruby in the Java Virtual Machine  
   <http://jruby.org/>
-- REE  
+- **REE**  
   Performance optimized MRI 1.8.7  
   <http://www.rubyenterpriseedition.com/>
-- MacRuby  
+- **MacRuby**  
   Ruby in OSX  
   <http://macruby.org/>
-- IronRuby  
+- **IronRuby**  
   Ruby in .NET  
   <http://www.ironruby.net/>
 
 ### Managing Rubies
 
-- rbenv  
+- **rbenv**  
   Simple Ruby version management  
   <https://github.com/sstephenson/rbenv/>
-- RVM  
+- **RVM**  
   Ruby Version Manager  
   <https://rvm.io/>
 
 ### Managing Gems
 
-- RubyGems  
+- **RubyGems**  
   The official Ruby package manager  
   <http://rubygems.org/>
 
 ### Managing Dependencies
 
-- Bundler  
+- **Bundler**  
   <http://gembundler.com/>
